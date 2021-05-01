@@ -42,11 +42,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const formReset = () => {
-  document.getElementById('myform').reset();
-}
-
-
 // letter animation 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml6 .letters');
