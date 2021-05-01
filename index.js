@@ -61,3 +61,11 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 500
   });
+
+
+  function submitForm() {
+    var frm = document.getElementById('myform');
+    frm.submit(); 
+    frm.reset();  
+    return false; 
+ }
