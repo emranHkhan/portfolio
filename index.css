@@ -35,7 +35,6 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -567,7 +566,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Contact ----- */
 /* --------------------------------------- */
 
-.contact {
+.contact, .blogs {
     padding: 50px 80px;
 }
 
@@ -658,5 +657,24 @@ body:not(.user-is-tabbing) a:focus {
     display: inline-block;
     line-height: 1em;
   }
+
+
+/* -----blogs------ */
+.img-container img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+} 
+
+.text-container {
+    line-height: 1.5;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.blog-link:hover {
+    color: black;
+}
+
 
 
