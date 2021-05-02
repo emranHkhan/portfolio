@@ -170,6 +170,7 @@ h3 {
     h3 {
         font-size: var(--font-size-medium);
     }
+    
 }
 
 p {
@@ -614,6 +615,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-link-item:hover {
     transform: scale(1.2);
+    transition: all .3s;
 }
 
 .footer__social-image {
@@ -643,6 +645,24 @@ body:not(.user-is-tabbing) a:focus {
     font-weight: 900;
     font-size: 3.3em;
   }
+
+@media(max-width: 550px) {
+    .ml6 {
+        font-size: 3em;
+    }
+}
+
+@media(max-width: 500px) {
+    .ml6 {
+        font-size: 2.5em;
+    }
+}
+
+@media(max-width: 500px) {
+    .ml6 {
+        font-size: 1.5em;
+    }
+}
   
   .ml6 .text-wrapper {
     position: relative;
@@ -675,6 +695,8 @@ body:not(.user-is-tabbing) a:focus {
 .blog-link:hover {
     color: black;
 }
+
+
 
 
 

@@ -69,3 +69,4 @@ anime.timeline({loop: true})
     frm.reset();  
     return false; 
  }
+ 
