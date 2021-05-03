@@ -70,3 +70,5 @@ anime.timeline({loop: true})
     return false; 
  }
  
+
+//  modals
