@@ -299,12 +299,12 @@ body:not(.user-is-tabbing) a:focus {
 .back-to-top {
     position: fixed;
     bottom: 4rem;
-    right: 4rem;
+    right: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     background-color: #1A237E;
     border-radius: 50%;
     z-index: 10;
@@ -318,15 +318,40 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 900px) {
     .back-to-top {
-        right: 2rem;
-    }
-}
-
-@media(max-width: 500px) {
-    .back-to-top {
         right: 1rem;
     }
 }
+
+@media(max-width: 450px) {
+    .back-to-top {
+            height: 4.5rem;
+            width: 4.5rem;
+            left: 42rem;
+            bottom: 10rem;
+       
+    }
+}
+
+@media(max-width: 400px) {
+    .back-to-top {
+            height: 4.5rem;
+            width: 4.5rem;
+            left: 36rem;
+            bottom: 10rem;
+       
+    }
+}
+
+@media(max-width: 350px) {
+    .back-to-top {
+            height: 3.5rem;
+            width: 3.5rem;
+            left: 33rem;
+            bottom: 10rem;
+       
+    }
+}
+
 
 /* --------------------------------------- */
 /* ----- Navigation ----- */
@@ -470,7 +495,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__list {
-    /* list-style-type: square; */
+    list-style-type: square;
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
@@ -690,6 +715,12 @@ body:not(.user-is-tabbing) a:focus {
     line-height: 1.5;
     padding: 30px;
     font-size: 1.5rem;
+}
+
+@media(max-width: 350px) {
+    .text-container {
+        padding: 20px 0;
+    }
 }
 
 .blog-link:hover {
