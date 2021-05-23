@@ -70,5 +70,13 @@ anime.timeline({loop: true})
     return false; 
  }
  
+//redirect to blogs
 
-//  modals
+const blogContainer = document.querySelectorAll('.blog-content');
+const links = ['https://dev.to/emranhkhan/titbits-of-javascript-b3g', 'https://dev.to/emranhkhan/rect-basics-510l', 'https://dev.to/emranhkhan/es6-features-55on']
+
+for (let k = 0; k < blogContainer.length; k++) {
+  blogContainer[k].addEventListener('click', () => {
+    window.open(links[k])
+  })
+}
